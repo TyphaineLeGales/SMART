@@ -1,0 +1,57 @@
+// Place all the styles related to the landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://rsms.me/inter/inter-ui.css');
+body {
+  size: 30vh;
+  background: linear-gradient(45deg, pink, pink 40%, white);
+  display: flex;
+  font-family: 'Inter UI', sans-serif;
+  height: calc(402vh + var(--size));
+  margin: 0;
+  justify-content: center;
+}
+.message {
+  align-items: center;
+  color: #404045;
+  display: flex;
+  height: 100vh;
+  font-size: 8vh;
+  font-weight: 900;
+}
+.message-end {
+  top: calc(302vh + var(--size));
+  position: absolute;
+}
+.shape {
+  bottom: calc(var(--size) * -1);
+  height: var(--size);
+  position: absolute;
+  width: var(--size);
+}
+.shape1 {
+  background: linear-gradient(200deg, orange, orange 40%, cyan);
+  clip-path: polygon(var(--c0) var(--c1),var(--c2) var(--c3),var(--c4) var(--c5),var(--c6) var(--c7),var(--c8) var(--c9),var(--c10) var(--c11),var(--c12) var(--c13),var(--c14) var(--c15),var(--c16) var(--c17),var(--c18) var(--c19),var(--c20) var(--c21),var(--c22) var(--c23),var(--c24) var(--c25),var(--c26) var(--c27),var(--c28) var(--c29),var(--c30) var(--c31),var(--c32) var(--c33),var(--c34) var(--c35),var(--c36) var(--c37),var(--c38) var(--c39),var(--c40) var(--c41),var(--c42) var(--c43),var(--c44) var(--c45),var(--c46) var(--c47),var(--c48) var(--c49),var(--c50) var(--c51),var(--c52) var(--c53),var(--c54) var(--c55),var(--c56) var(--c57),var(--c58) var(--c59),var(--c60) var(--c61),var(--c62) var(--c63),var(--c64) var(--c65),var(--c66) var(--c67),var(--c68) var(--c69),var(--c70) var(--c71),var(--c72) var(--c73),var(--c74) var(--c75),var(--c76) var(--c77),var(--c78) var(--c79),var(--c80) var(--c81),var(--c82) var(--c83),var(--c84) var(--c85),var(--c86) var(--c87),var(--c88) var(--c89),var(--c90) var(--c91),var(--c92) var(--c93),var(--c94) var(--c95),var(--c96) var(--c97),var(--c98) var(--c99),var(--c100) var(--c101),var(--c102) var(--c103),var(--c104) var(--c105),var(--c106) var(--c107),var(--c108) var(--c109),var(--c110) var(--c111),var(--c112) var(--c113),var(--c114) var(--c115),var(--c116) var(--c117),var(--c118) var(--c119),var(--c120) var(--c121),var(--c122) var(--c123),var(--c124) var(--c125),var(--c126) var(--c127));
+}
+.shape2 {
+  background: linear-gradient(20deg, #6e9eff, #6e9eff 20%, magenta);
+  bottom: calc(-100vh - var(--size));
+  clip-path: polygon(var(--p2_0) var(--p2_1),var(--p2_2) var(--p2_3),var(--p2_4) var(--p2_5),var(--p2_6) var(--p2_7),var(--p2_8) var(--p2_9),var(--p2_10) var(--p2_11),var(--p2_12) var(--p2_13),var(--p2_14) var(--p2_15),var(--p2_16) var(--p2_17),var(--p2_18) var(--p2_19),var(--p2_20) var(--p2_21),var(--p2_22) var(--p2_23),var(--p2_24) var(--p2_25),var(--p2_26) var(--p2_27),var(--p2_28) var(--p2_29),var(--p2_30) var(--p2_31),var(--p2_32) var(--p2_33),var(--p2_34) var(--p2_35),var(--p2_36) var(--p2_37),var(--p2_38) var(--p2_39),var(--p2_40) var(--p2_41),var(--p2_42) var(--p2_43),var(--p2_44) var(--p2_45),var(--p2_46) var(--p2_47),var(--p2_48) var(--p2_49),var(--p2_50) var(--p2_51),var(--p2_52) var(--p2_53),var(--p2_54) var(--p2_55),var(--p2_56) var(--p2_57),var(--p2_58) var(--p2_59),var(--p2_60) var(--p2_61),var(--p2_62) var(--p2_63),var(--p2_64) var(--p2_65),var(--p2_66) var(--p2_67),var(--p2_68) var(--p2_69),var(--p2_70) var(--p2_71),var(--p2_72) var(--p2_73),var(--p2_74) var(--p2_75),var(--p2_76) var(--p2_77),var(--p2_78) var(--p2_79),var(--p2_80) var(--p2_81),var(--p2_82) var(--p2_83),var(--p2_84) var(--p2_85),var(--p2_86) var(--p2_87),var(--p2_88) var(--p2_89),var(--p2_90) var(--p2_91),var(--p2_92) var(--p2_93),var(--p2_94) var(--p2_95),var(--p2_96) var(--p2_97),var(--p2_98) var(--p2_99),var(--p2_100) var(--p2_101),var(--p2_102) var(--p2_103),var(--p2_104) var(--p2_105),var(--p2_106) var(--p2_107),var(--p2_108) var(--p2_109),var(--p2_110) var(--p2_111),var(--p2_112) var(--p2_113),var(--p2_114) var(--p2_115),var(--p2_116) var(--p2_117),var(--p2_118) var(--p2_119),var(--p2_120) var(--p2_121),var(--p2_122) var(--p2_123),var(--p2_124) var(--p2_125),var(--p2_126) var(--p2_127));
+}
+.shape3 {
+  background: linear-gradient(20deg, #ff5200, #ff5200 15%, #26fff5);
+  bottom: calc(-200vh - var(--size));
+  clip-path: polygon(var(--p3_0) var(--p3_1),var(--p3_2) var(--p3_3),var(--p3_4) var(--p3_5),var(--p3_6) var(--p3_7),var(--p3_8) var(--p3_9),var(--p3_10) var(--p3_11),var(--p3_12) var(--p3_13),var(--p3_14) var(--p3_15),var(--p3_16) var(--p3_17),var(--p3_18) var(--p3_19),var(--p3_20) var(--p3_21),var(--p3_22) var(--p3_23),var(--p3_24) var(--p3_25),var(--p3_26) var(--p3_27),var(--p3_28) var(--p3_29),var(--p3_30) var(--p3_31),var(--p3_32) var(--p3_33),var(--p3_34) var(--p3_35),var(--p3_36) var(--p3_37),var(--p3_38) var(--p3_39),var(--p3_40) var(--p3_41),var(--p3_42) var(--p3_43),var(--p3_44) var(--p3_45),var(--p3_46) var(--p3_47),var(--p3_48) var(--p3_49),var(--p3_50) var(--p3_51),var(--p3_52) var(--p3_53),var(--p3_54) var(--p3_55),var(--p3_56) var(--p3_57),var(--p3_58) var(--p3_59),var(--p3_60) var(--p3_61),var(--p3_62) var(--p3_63),var(--p3_64) var(--p3_65),var(--p3_66) var(--p3_67),var(--p3_68) var(--p3_69),var(--p3_70) var(--p3_71),var(--p3_72) var(--p3_73),var(--p3_74) var(--p3_75),var(--p3_76) var(--p3_77),var(--p3_78) var(--p3_79),var(--p3_80) var(--p3_81),var(--p3_82) var(--p3_83),var(--p3_84) var(--p3_85),var(--p3_86) var(--p3_87),var(--p3_88) var(--p3_89),var(--p3_90) var(--p3_91),var(--p3_92) var(--p3_93),var(--p3_94) var(--p3_95),var(--p3_96) var(--p3_97),var(--p3_98) var(--p3_99),var(--p3_100) var(--p3_101),var(--p3_102) var(--p3_103),var(--p3_104) var(--p3_105),var(--p3_106) var(--p3_107),var(--p3_108) var(--p3_109),var(--p3_110) var(--p3_111),var(--p3_112) var(--p3_113),var(--p3_114) var(--p3_115),var(--p3_116) var(--p3_117),var(--p3_118) var(--p3_119),var(--p3_120) var(--p3_121),var(--p3_122) var(--p3_123),var(--p3_124) var(--p3_125),var(--p3_126) var(--p3_127),var(--p3_128) var(--p3_129),var(--p3_130) var(--p3_131),var(--p3_132) var(--p3_133),var(--p3_134) var(--p3_135),var(--p3_136) var(--p3_137),var(--p3_138) var(--p3_139),var(--p3_140) var(--p3_141),var(--p3_142) var(--p3_143),var(--p3_144) var(--p3_145),var(--p3_146) var(--p3_147),var(--p3_148) var(--p3_149),var(--p3_150) var(--p3_151),var(--p3_152) var(--p3_153),var(--p3_154) var(--p3_155),var(--p3_156) var(--p3_157),var(--p3_158) var(--p3_159),var(--p3_160) var(--p3_161),var(--p3_162) var(--p3_163),var(--p3_164) var(--p3_165),var(--p3_166) var(--p3_167),var(--p3_168) var(--p3_169),var(--p3_170) var(--p3_171),var(--p3_172) var(--p3_173),var(--p3_174) var(--p3_175),var(--p3_176) var(--p3_177),var(--p3_178) var(--p3_179),var(--p3_180) var(--p3_181),var(--p3_182) var(--p3_183),var(--p3_184) var(--p3_185),var(--p3_186) var(--p3_187),var(--p3_188) var(--p3_189),var(--p3_190) var(--p3_191),var(--p3_192) var(--p3_193),var(--p3_194) var(--p3_195),var(--p3_196) var(--p3_197),var(--p3_198) var(--p3_199),var(--p3_200) var(--p3_201),var(--p3_202) var(--p3_203),var(--p3_204) var(--p3_205),var(--p3_206) var(--p3_207),var(--p3_208) var(--p3_209),var(--p3_210) var(--p3_211),var(--p3_212) var(--p3_213),var(--p3_214) var(--p3_215),var(--p3_216) var(--p3_217),var(--p3_218) var(--p3_219),var(--p3_220) var(--p3_221),var(--p3_222) var(--p3_223),var(--p3_224) var(--p3_225),var(--p3_226) var(--p3_227),var(--p3_228) var(--p3_229),var(--p3_230) var(--p3_231),var(--p3_232) var(--p3_233),var(--p3_234) var(--p3_235),var(--p3_236) var(--p3_237),var(--p3_238) var(--p3_239),var(--p3_240) var(--p3_241),var(--p3_242) var(--p3_243),var(--p3_244) var(--p3_245),var(--p3_246) var(--p3_247),var(--p3_248) var(--p3_249),var(--p3_250) var(--p3_251),var(--p3_252) var(--p3_253),var(--p3_254) var(--p3_255));
+}
+.shapeShadow {
+  background: #000007;
+  bottom: calc(-1.5vh - var(--size));
+  margin-left: 1.5vh;
+  opacity: .7;
+}
+.shape2.shapeShadow {
+  bottom: calc(-102vh - var(--size));
+}
+.shape3.shapeShadow {
+  bottom: calc(-202vh - var(--size));
+}
